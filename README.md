@@ -4,8 +4,8 @@
 
 Allen Klein
 
-- [Link to Portfolio Site](https://allen-ek.github.io/Portfolio/)
-- [Link to Github](https://github.com/allen-ek/)
+- [Link to Site]( https://allen-ek.github.io/day-planner/)
+- [Link to Github Repository](https://github.com/allen-ek/day-planner)
 
 ## Why?
 I wanted to create a work day planner with hourly timeblocks that allowed for writing of plans. That was able to be color coded by the current time. Such that any blocks before the time would be greyed out and present would be red and anything in the future would be green.

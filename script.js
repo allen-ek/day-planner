@@ -1,10 +1,10 @@
 var d = new Date();
 var hour=d.getHours();
 var today = moment();
-
+//displays the curretn day using Moment.js
 $("#currentDay").text(today.format("MMM Do YYYY"));
 
-
+//changes text blocks background according to time
 $('textarea').each(function(){
     var currHour=d.getHours();
     var current=$(this).attr('id');
@@ -18,7 +18,7 @@ $('textarea').each(function(){
         $(this).css("background-color","Tomato");
     }    
 });
-
+//queryselectors for save button
 renderLast();
 var textInput=document.querySelector('div.form-control');
 var saveBtn= document.querySelector('.saveBtn');
